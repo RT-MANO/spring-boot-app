@@ -76,7 +76,7 @@ pipeline{
         }
         stage("Trigger CD Pipeline") {
             steps {
-                echo "JENKINS_API_TOKEN is ${JENKINS_API_TOKEN}"
+                echo "JENKINS_API_IS is ${JENKINS_API_TOKEN}"
                 sh 'printenv'
             }
 
