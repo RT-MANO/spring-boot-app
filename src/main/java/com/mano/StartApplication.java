@@ -21,5 +21,4 @@ public class StartApplication {
         mv.addObject("msg", "<<This application is deployed on to Kubernetes using Argo CD>>");
         return mv;
     }
-
 }
