@@ -17,8 +17,8 @@ public class StartApplication {
     @GetMapping("/")
     public ModelAndView index(final Model model) {
         ModelAndView mv = new ModelAndView("index");
-        mv.addObject("title", "<<I have built a sprint boot application using Maven>>");
-        mv.addObject("msg", "<<This application is deployed on to Kubernetes using Argo CD>>");
+        mv.addObject("title", "I have deployed a sprint boot application using GITOPS CI/CD");
+        mv.addObject("msg", "This application is deployed on to Kubernetes using Argo CD");
         return mv;
     }
 }
