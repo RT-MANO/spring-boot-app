@@ -21,4 +21,5 @@ public class StartApplication {
         mv.addObject("msg", "This application is deployed on to Minikube K38 cluster using Argo CD");
         return mv;
     }
+
 }
