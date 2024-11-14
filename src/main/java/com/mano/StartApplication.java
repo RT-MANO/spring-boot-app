@@ -22,4 +22,11 @@ public class StartApplication {
         return mv;
     }
 
+    @GetMapping("/default")
+    public ModelAndView Default(final Model model) {
+        ModelAndView mv = new ModelAndView("index");
+        mv.addObject("title", "I have deployed a sprint boot application using GITOPS CI/CD");
+        mv.addObject("msg", "This application is deployed on to Minikube K38 cluster using Argo CD");
+        return mv;
+    }
 }
