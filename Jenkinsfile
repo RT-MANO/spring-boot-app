@@ -114,5 +114,4 @@ pipeline{
                     mimeType: 'text/html',to: "mano.tulasingam@gmail.com"
           }
     }
-
 }
