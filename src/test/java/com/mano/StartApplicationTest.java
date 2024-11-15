@@ -23,4 +23,7 @@ public class StartApplicationTest {
                 .andExpect(model().attribute("msg", "This application is deployed on to Minikube K38 cluster using Argo CD"));
     }
 
+    @Test
+    void contextLoads() {
+    }
 }
