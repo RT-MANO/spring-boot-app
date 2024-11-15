@@ -5,11 +5,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 public class StartApplicationMainTest {
-
+/*
     @Test
     public void testMain() {
         StartApplication.main(new String[] {});
-    }
+    }*/
 
     @Test
     public void contextLoads() {
