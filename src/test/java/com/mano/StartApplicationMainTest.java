@@ -10,4 +10,9 @@ public class StartApplicationMainTest {
     public void testMain() {
         StartApplication.main(new String[] {});
     }
+
+    @Test
+    public void contextLoads() {
+        // This will test if the Spring application context loads successfully
+    }
 }
